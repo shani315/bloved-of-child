@@ -1,0 +1,49 @@
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\BL\obj\Debug\BL.csprojAssemblyReference.cache
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\BL\bin\Debug\BL.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\BL\bin\Debug\BL.pdb
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\BL\bin\Debug\DAL.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\BL\bin\Debug\DTO.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\BL\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\BL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\BL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\BL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\BL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\BL\bin\Debug\EntityFramework.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\BL\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\BL\bin\Debug\DAL.pdb
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\BL\bin\Debug\DAL.dll.config
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\BL\bin\Debug\DTO.pdb
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\BL\bin\Debug\Microsoft.VisualStudio.OLE.Interop.xml
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\BL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.xml
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\BL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.xml
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\BL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.xml
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\BL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.xml
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\BL\bin\Debug\EntityFramework.xml
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\BL\obj\Debug\BL.csproj.CopyComplete
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\BL\obj\Debug\BL.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\BL\obj\Debug\BL.pdb
+D:\Volunteering\BL\obj\Debug\BL.csprojAssemblyReference.cache
+D:\Volunteering\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+D:\Volunteering\BL\obj\Debug\BL.dll
+D:\Volunteering\BL\obj\Debug\BL.pdb
+D:\Volunteering\BL\bin\Debug\BL.dll
+D:\Volunteering\BL\bin\Debug\BL.pdb
+D:\Volunteering\BL\bin\Debug\DAL.dll
+D:\Volunteering\BL\bin\Debug\DTO.dll
+D:\Volunteering\BL\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Volunteering\BL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\Volunteering\BL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Volunteering\BL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\Volunteering\BL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Volunteering\BL\bin\Debug\Microsoft.MSXML.dll
+D:\Volunteering\BL\bin\Debug\DAL.pdb
+D:\Volunteering\BL\bin\Debug\DAL.dll.config
+D:\Volunteering\BL\bin\Debug\DTO.pdb
+D:\Volunteering\BL\bin\Debug\EntityFramework.xml
+D:\Volunteering\BL\bin\Debug\Microsoft.VisualStudio.OLE.Interop.xml
+D:\Volunteering\BL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.xml
+D:\Volunteering\BL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.xml
+D:\Volunteering\BL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.xml
+D:\Volunteering\BL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.xml
+D:\Volunteering\BL\obj\Debug\BL.csproj.CopyComplete

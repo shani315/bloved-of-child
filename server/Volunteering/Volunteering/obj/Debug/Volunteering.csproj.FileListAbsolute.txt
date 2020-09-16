@@ -1,0 +1,122 @@
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\obj\Debug\Volunteering.csprojAssemblyReference.cache
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\obj\Debug\Volunteering.csproj.CoreCompileInputs.cache
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\roslyn\csc.exe
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\roslyn\csc.exe.config
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\roslyn\csc.rsp
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\roslyn\csi.exe
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\roslyn\csi.rsp
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\roslyn\System.AppContext.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\roslyn\vbc.exe
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\roslyn\vbc.exe.config
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\roslyn\vbc.rsp
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\roslyn\VBCSCompiler.exe
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\Volunteering.dll.config
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\Volunteering.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\Volunteering.pdb
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\BL.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\DAL.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\DTO.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\EntityFramework.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\EntityFramework.SqlServer.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\Newtonsoft.Json.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\System.Net.Http.Formatting.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\System.Web.Http.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\System.Web.Http.WebHost.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\Microsoft.MSXML.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\BL.pdb
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\DAL.pdb
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\DAL.dll.config
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\DTO.pdb
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\Microsoft.VisualStudio.OLE.Interop.xml
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\Microsoft.VisualStudio.Shell.Interop.xml
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\Microsoft.VisualStudio.Shell.Interop.8.0.xml
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\Microsoft.VisualStudio.TextManager.Interop.xml
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.xml
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\Newtonsoft.Json.xml
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\System.Net.Http.Formatting.xml
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\System.Web.Http.xml
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\bin\System.Web.Http.WebHost.xml
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\obj\Debug\Volunteering.csproj.CopyComplete
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\obj\Debug\Volunteering.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\Volunteering\obj\Debug\Volunteering.pdb
+D:\Volunteering\Volunteering\obj\Debug\Volunteering.csprojAssemblyReference.cache
+D:\Volunteering\Volunteering\obj\Debug\Volunteering.csproj.CoreCompileInputs.cache
+D:\Volunteering\Volunteering\obj\Debug\Volunteering.dll
+D:\Volunteering\Volunteering\obj\Debug\Volunteering.pdb
+D:\Volunteering\Volunteering\bin\roslyn\csc.exe
+D:\Volunteering\Volunteering\bin\roslyn\csc.exe.config
+D:\Volunteering\Volunteering\bin\roslyn\csc.rsp
+D:\Volunteering\Volunteering\bin\roslyn\csi.exe
+D:\Volunteering\Volunteering\bin\roslyn\csi.rsp
+D:\Volunteering\Volunteering\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Volunteering\Volunteering\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Volunteering\Volunteering\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Volunteering\Volunteering\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Volunteering\Volunteering\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Volunteering\Volunteering\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Volunteering\Volunteering\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Volunteering\Volunteering\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Volunteering\Volunteering\bin\roslyn\System.AppContext.dll
+D:\Volunteering\Volunteering\bin\roslyn\System.Collections.Immutable.dll
+D:\Volunteering\Volunteering\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Volunteering\Volunteering\bin\roslyn\System.IO.FileSystem.dll
+D:\Volunteering\Volunteering\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Volunteering\Volunteering\bin\roslyn\System.Reflection.Metadata.dll
+D:\Volunteering\Volunteering\bin\roslyn\vbc.exe
+D:\Volunteering\Volunteering\bin\roslyn\vbc.exe.config
+D:\Volunteering\Volunteering\bin\roslyn\vbc.rsp
+D:\Volunteering\Volunteering\bin\roslyn\VBCSCompiler.exe
+D:\Volunteering\Volunteering\bin\roslyn\VBCSCompiler.exe.config
+D:\Volunteering\Volunteering\bin\Volunteering.dll.config
+D:\Volunteering\Volunteering\bin\Volunteering.dll
+D:\Volunteering\Volunteering\bin\Volunteering.pdb
+D:\Volunteering\Volunteering\bin\BL.dll
+D:\Volunteering\Volunteering\bin\DAL.dll
+D:\Volunteering\Volunteering\bin\DTO.dll
+D:\Volunteering\Volunteering\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Volunteering\Volunteering\bin\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Volunteering\Volunteering\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\Volunteering\Volunteering\bin\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Volunteering\Volunteering\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\Volunteering\Volunteering\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Volunteering\Volunteering\bin\Newtonsoft.Json.dll
+D:\Volunteering\Volunteering\bin\System.Net.Http.Formatting.dll
+D:\Volunteering\Volunteering\bin\System.Web.Http.dll
+D:\Volunteering\Volunteering\bin\System.Web.Http.WebHost.dll
+D:\Volunteering\Volunteering\bin\Microsoft.MSXML.dll
+D:\Volunteering\Volunteering\bin\BL.pdb
+D:\Volunteering\Volunteering\bin\DAL.pdb
+D:\Volunteering\Volunteering\bin\DAL.dll.config
+D:\Volunteering\Volunteering\bin\DTO.pdb
+D:\Volunteering\Volunteering\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Volunteering\Volunteering\bin\Microsoft.VisualStudio.OLE.Interop.xml
+D:\Volunteering\Volunteering\bin\Microsoft.VisualStudio.Shell.Interop.xml
+D:\Volunteering\Volunteering\bin\Microsoft.VisualStudio.Shell.Interop.8.0.xml
+D:\Volunteering\Volunteering\bin\Microsoft.VisualStudio.TextManager.Interop.xml
+D:\Volunteering\Volunteering\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.xml
+D:\Volunteering\Volunteering\bin\Newtonsoft.Json.xml
+D:\Volunteering\Volunteering\bin\System.Net.Http.Formatting.xml
+D:\Volunteering\Volunteering\bin\System.Web.Http.xml
+D:\Volunteering\Volunteering\bin\System.Web.Http.WebHost.xml
+D:\Volunteering\Volunteering\obj\Debug\Volunteering.csproj.CopyComplete

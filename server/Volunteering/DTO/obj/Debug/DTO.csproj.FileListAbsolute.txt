@@ -1,0 +1,41 @@
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DTO\bin\Debug\DTO.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DTO\bin\Debug\DTO.pdb
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DTO\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DTO\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DTO\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DTO\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DTO\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DTO\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DTO\bin\Debug\Microsoft.VisualStudio.OLE.Interop.xml
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DTO\bin\Debug\Microsoft.VisualStudio.Shell.Interop.xml
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DTO\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.xml
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DTO\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.xml
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DTO\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.xml
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DTO\obj\Debug\DTO.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DTO\obj\Debug\DTO.pdb
+D:\Volunteering\DTO\bin\Debug\DTO.dll
+D:\Volunteering\DTO\bin\Debug\DTO.pdb
+D:\Volunteering\DTO\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Volunteering\DTO\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\Volunteering\DTO\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Volunteering\DTO\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\Volunteering\DTO\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Volunteering\DTO\bin\Debug\Microsoft.MSXML.dll
+D:\Volunteering\DTO\bin\Debug\Microsoft.VisualStudio.OLE.Interop.xml
+D:\Volunteering\DTO\bin\Debug\Microsoft.VisualStudio.Shell.Interop.xml
+D:\Volunteering\DTO\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.xml
+D:\Volunteering\DTO\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.xml
+D:\Volunteering\DTO\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.xml
+D:\Volunteering\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+D:\Volunteering\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\Volunteering\DTO\obj\Debug\DTO.csproj.CopyComplete
+D:\Volunteering\DTO\obj\Debug\DTO.dll
+D:\Volunteering\DTO\obj\Debug\DTO.pdb
+D:\Volunteering\DTO\bin\Debug\DAL.dll
+D:\Volunteering\DTO\bin\Debug\EntityFramework.dll
+D:\Volunteering\DTO\bin\Debug\DAL.pdb
+D:\Volunteering\DTO\bin\Debug\DAL.dll.config
+D:\Volunteering\DTO\bin\Debug\EntityFramework.xml

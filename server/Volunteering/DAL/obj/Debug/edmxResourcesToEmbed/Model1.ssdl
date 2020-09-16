@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="volunteeringModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="child">
+    <Key>
+      <PropertyRef Name="childID" />
+    </Key>
+    <Property Name="childID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="familyId" Type="int" />
+    <Property Name="firstName" Type="varchar" MaxLength="50" />
+    <Property Name="age" Type="int" />
+    <Property Name="sax" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="dateEntryToSite" Type="datetime" />
+    <Property Name="status" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="childEvent">
+    <Key>
+      <PropertyRef Name="childEventID" />
+    </Key>
+    <Property Name="childEventID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="eventId" Type="int" />
+    <Property Name="childId" Type="int" />
+  </EntityType>
+  <EntityType Name="eventOfChild">
+    <Key>
+      <PropertyRef Name="eventOfChildID" />
+    </Key>
+    <Property Name="eventOfChildID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="organizingSecretary" Type="int" />
+    <Property Name="typeEvent" Type="varchar" MaxLength="50" />
+    <Property Name="dateEvent" Type="datetime" />
+    <Property Name="maxNumChildren" Type="int" />
+    <Property Name="actualNumChildren" Type="int" />
+    <Property Name="accessible" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="placeEvent" Type="varchar" MaxLength="50" />
+    <Property Name="description" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="eventOfVolunteer">
+    <Key>
+      <PropertyRef Name="volunteerOfEventID" />
+    </Key>
+    <Property Name="volunteerOfEventID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="eventId" Type="int" />
+    <Property Name="volunteerId" Type="int" />
+    <Property Name="minCountVolunteering" Type="int" />
+    <Property Name="countVolunteer" Type="int" />
+    <Property Name="IsParticipant" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="eventsVolunteer">
+    <Key>
+      <PropertyRef Name="eventsVolunteerID" />
+    </Key>
+    <Property Name="eventsVolunteerID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="responsibleSecretary" Type="varchar" MaxLength="50" />
+    <Property Name="place" Type="varchar" MaxLength="50" />
+    <Property Name="typeEvent" Type="varchar" MaxLength="50" />
+    <Property Name="dateEvent" Type="datetime" />
+    <Property Name="maxCountParticipants" Type="int" />
+    <Property Name="countParticipants" Type="int" />
+    <Property Name="minVolunteers" Type="int" />
+    <Property Name="description" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="family">
+    <Key>
+      <PropertyRef Name="familyID" />
+    </Key>
+    <Property Name="familyID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="lastName" Type="varchar" MaxLength="50" />
+    <Property Name="userName" Type="varchar" MaxLength="15" />
+    <Property Name="password" Type="varchar" MaxLength="15" />
+    <Property Name="city" Type="varchar" MaxLength="50" />
+    <Property Name="street" Type="varchar" MaxLength="50" />
+    <Property Name="houseNumber" Type="int" />
+    <Property Name="phone" Type="varchar" MaxLength="50" />
+    <Property Name="mail" Type="varchar" MaxLength="50" />
+    <Property Name="formContact" Type="varchar" MaxLength="50" />
+    <Property Name="childrenOnSite" Type="int" />
+  </EntityType>
+  <EntityType Name="secretary">
+    <Key>
+      <PropertyRef Name="secretaryID" />
+    </Key>
+    <Property Name="secretaryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userName" Type="varchar" MaxLength="15" />
+    <Property Name="password" Type="varchar" MaxLength="15" />
+    <Property Name="firstName" Type="varchar" MaxLength="50" />
+    <Property Name="lastName" Type="varchar" MaxLength="50" />
+    <Property Name="city" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="accessRights" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="typeDisability">
+    <Key>
+      <PropertyRef Name="typeDisabilityID" />
+    </Key>
+    <Property Name="typeDisabilityID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="typeUser" Type="varchar" MaxLength="50" />
+    <Property Name="volunteerId" Type="int" Nullable="false" />
+    <Property Name="hearing" Type="varchar" MaxLength="50" />
+    <Property Name="incapacity" Type="varbinary" MaxLength="50" Nullable="false" />
+    <Property Name="communication" Type="varchar" MaxLength="50" />
+    <Property Name="violence" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ASD" Type="varchar" MaxLength="50" />
+    <Property Name="lag" Type="varchar" MaxLength="50" />
+    <Property Name="AHD" Type="varchar" MaxLength="50" />
+    <Property Name="downSyndrome" Type="varchar" MaxLength="50" />
+    <Property Name="childId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="volunteer">
+    <Key>
+      <PropertyRef Name="volunteerID" />
+    </Key>
+    <Property Name="volunteerID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="firstName" Type="varchar" MaxLength="50" />
+    <Property Name="lastName" Type="varchar" MaxLength="50" />
+    <Property Name="userName" Type="varchar" MaxLength="15" />
+    <Property Name="password" Type="varchar" MaxLength="15" />
+    <Property Name="phone" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="age" Type="int" />
+    <Property Name="status" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="mail" Type="varchar" MaxLength="50" />
+    <Property Name="formContact" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="sax" Type="varchar" MaxLength="50" />
+    <Property Name="dateEntryToSite" Type="datetime" />
+  </EntityType>
+  <EntityType Name="volunteerHistory">
+    <Key>
+      <PropertyRef Name="volunteerHistoryID" />
+    </Key>
+    <Property Name="volunteerHistoryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="volunteerId" Type="int" />
+    <Property Name="childId" Type="int" />
+    <Property Name="volunteerOfChildId" Type="int" />
+    <Property Name="volunteerQualityId" Type="int" />
+    <Property Name="hour" Type="time" Precision="4" Nullable="false" />
+    <Property Name="dateVolunteer" Type="date" Nullable="false" />
+    <Property Name="remarks" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="volunteerOfChild">
+    <Key>
+      <PropertyRef Name="volunteerOfChildID" />
+    </Key>
+    <Property Name="volunteerOfChildID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="volunteerId" Type="int" />
+    <Property Name="childId" Type="int" />
+    <Property Name="hour" Type="time" Precision="4" />
+    <Property Name="day" Type="int" />
+    <Property Name="details" Type="varchar" MaxLength="50" />
+    <Property Name="remarks" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_child_family">
+    <End Role="family" Type="Self.family" Multiplicity="0..1" />
+    <End Role="child" Type="Self.child" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="family">
+        <PropertyRef Name="familyID" />
+      </Principal>
+      <Dependent Role="child">
+        <PropertyRef Name="familyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_childEvent_child">
+    <End Role="child" Type="Self.child" Multiplicity="0..1" />
+    <End Role="childEvent" Type="Self.childEvent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="child">
+        <PropertyRef Name="childID" />
+      </Principal>
+      <Dependent Role="childEvent">
+        <PropertyRef Name="childId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_childEvent_eventOfChild">
+    <End Role="eventOfChild" Type="Self.eventOfChild" Multiplicity="0..1" />
+    <End Role="childEvent" Type="Self.childEvent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="eventOfChild">
+        <PropertyRef Name="eventOfChildID" />
+      </Principal>
+      <Dependent Role="childEvent">
+        <PropertyRef Name="eventId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_eventOfChild_secretary">
+    <End Role="secretary" Type="Self.secretary" Multiplicity="0..1" />
+    <End Role="eventOfChild" Type="Self.eventOfChild" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="secretary">
+        <PropertyRef Name="secretaryID" />
+      </Principal>
+      <Dependent Role="eventOfChild">
+        <PropertyRef Name="organizingSecretary" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_eventOfVolunteer_eventOfVolunteer">
+    <End Role="eventsVolunteer" Type="Self.eventsVolunteer" Multiplicity="1" />
+    <End Role="eventsVolunteer1" Type="Self.eventsVolunteer" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="eventsVolunteer">
+        <PropertyRef Name="eventsVolunteerID" />
+      </Principal>
+      <Dependent Role="eventsVolunteer1">
+        <PropertyRef Name="eventsVolunteerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_eventOfVolunteer_eventsVolunteer">
+    <End Role="eventsVolunteer" Type="Self.eventsVolunteer" Multiplicity="0..1" />
+    <End Role="eventOfVolunteer" Type="Self.eventOfVolunteer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="eventsVolunteer">
+        <PropertyRef Name="eventsVolunteerID" />
+      </Principal>
+      <Dependent Role="eventOfVolunteer">
+        <PropertyRef Name="eventId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_eventOfVolunteer_volunteer">
+    <End Role="volunteer" Type="Self.volunteer" Multiplicity="0..1" />
+    <End Role="eventOfVolunteer" Type="Self.eventOfVolunteer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="volunteer">
+        <PropertyRef Name="volunteerID" />
+      </Principal>
+      <Dependent Role="eventOfVolunteer">
+        <PropertyRef Name="volunteerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_typeDisability_child">
+    <End Role="child" Type="Self.child" Multiplicity="1" />
+    <End Role="typeDisability" Type="Self.typeDisability" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="child">
+        <PropertyRef Name="childID" />
+      </Principal>
+      <Dependent Role="typeDisability">
+        <PropertyRef Name="childId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_typeDisability_volunteer">
+    <End Role="volunteer" Type="Self.volunteer" Multiplicity="1" />
+    <End Role="typeDisability" Type="Self.typeDisability" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="volunteer">
+        <PropertyRef Name="volunteerID" />
+      </Principal>
+      <Dependent Role="typeDisability">
+        <PropertyRef Name="volunteerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_volunteerHistory_child">
+    <End Role="child" Type="Self.child" Multiplicity="0..1" />
+    <End Role="volunteerHistory" Type="Self.volunteerHistory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="child">
+        <PropertyRef Name="childID" />
+      </Principal>
+      <Dependent Role="volunteerHistory">
+        <PropertyRef Name="childId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_volunteerHistory_volunteer">
+    <End Role="volunteer" Type="Self.volunteer" Multiplicity="0..1" />
+    <End Role="volunteerHistory" Type="Self.volunteerHistory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="volunteer">
+        <PropertyRef Name="volunteerID" />
+      </Principal>
+      <Dependent Role="volunteerHistory">
+        <PropertyRef Name="volunteerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_volunteerHistory_volunteerOfChild">
+    <End Role="volunteerOfChild" Type="Self.volunteerOfChild" Multiplicity="0..1" />
+    <End Role="volunteerHistory" Type="Self.volunteerHistory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="volunteerOfChild">
+        <PropertyRef Name="volunteerOfChildID" />
+      </Principal>
+      <Dependent Role="volunteerHistory">
+        <PropertyRef Name="volunteerOfChildId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_volunteerOfChild_child">
+    <End Role="child" Type="Self.child" Multiplicity="0..1" />
+    <End Role="volunteerOfChild" Type="Self.volunteerOfChild" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="child">
+        <PropertyRef Name="childID" />
+      </Principal>
+      <Dependent Role="volunteerOfChild">
+        <PropertyRef Name="childId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_volunteerOfChild_volunteer">
+    <End Role="volunteer" Type="Self.volunteer" Multiplicity="0..1" />
+    <End Role="volunteerOfChild" Type="Self.volunteerOfChild" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="volunteer">
+        <PropertyRef Name="volunteerID" />
+      </Principal>
+      <Dependent Role="volunteerOfChild">
+        <PropertyRef Name="volunteerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="volunteeringModelStoreContainer">
+    <EntitySet Name="child" EntityType="Self.child" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="childEvent" EntityType="Self.childEvent" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="eventOfChild" EntityType="Self.eventOfChild" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="eventOfVolunteer" EntityType="Self.eventOfVolunteer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="eventsVolunteer" EntityType="Self.eventsVolunteer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="family" EntityType="Self.family" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="secretary" EntityType="Self.secretary" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="typeDisability" EntityType="Self.typeDisability" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="volunteer" EntityType="Self.volunteer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="volunteerHistory" EntityType="Self.volunteerHistory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="volunteerOfChild" EntityType="Self.volunteerOfChild" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_child_family" Association="Self.FK_child_family">
+      <End Role="family" EntitySet="family" />
+      <End Role="child" EntitySet="child" />
+    </AssociationSet>
+    <AssociationSet Name="FK_childEvent_child" Association="Self.FK_childEvent_child">
+      <End Role="child" EntitySet="child" />
+      <End Role="childEvent" EntitySet="childEvent" />
+    </AssociationSet>
+    <AssociationSet Name="FK_childEvent_eventOfChild" Association="Self.FK_childEvent_eventOfChild">
+      <End Role="eventOfChild" EntitySet="eventOfChild" />
+      <End Role="childEvent" EntitySet="childEvent" />
+    </AssociationSet>
+    <AssociationSet Name="FK_eventOfChild_secretary" Association="Self.FK_eventOfChild_secretary">
+      <End Role="secretary" EntitySet="secretary" />
+      <End Role="eventOfChild" EntitySet="eventOfChild" />
+    </AssociationSet>
+    <AssociationSet Name="FK_eventOfVolunteer_eventOfVolunteer" Association="Self.FK_eventOfVolunteer_eventOfVolunteer">
+      <End Role="eventsVolunteer" EntitySet="eventsVolunteer" />
+      <End Role="eventsVolunteer1" EntitySet="eventsVolunteer" />
+    </AssociationSet>
+    <AssociationSet Name="FK_eventOfVolunteer_eventsVolunteer" Association="Self.FK_eventOfVolunteer_eventsVolunteer">
+      <End Role="eventsVolunteer" EntitySet="eventsVolunteer" />
+      <End Role="eventOfVolunteer" EntitySet="eventOfVolunteer" />
+    </AssociationSet>
+    <AssociationSet Name="FK_eventOfVolunteer_volunteer" Association="Self.FK_eventOfVolunteer_volunteer">
+      <End Role="volunteer" EntitySet="volunteer" />
+      <End Role="eventOfVolunteer" EntitySet="eventOfVolunteer" />
+    </AssociationSet>
+    <AssociationSet Name="FK_typeDisability_child" Association="Self.FK_typeDisability_child">
+      <End Role="child" EntitySet="child" />
+      <End Role="typeDisability" EntitySet="typeDisability" />
+    </AssociationSet>
+    <AssociationSet Name="FK_typeDisability_volunteer" Association="Self.FK_typeDisability_volunteer">
+      <End Role="volunteer" EntitySet="volunteer" />
+      <End Role="typeDisability" EntitySet="typeDisability" />
+    </AssociationSet>
+    <AssociationSet Name="FK_volunteerHistory_child" Association="Self.FK_volunteerHistory_child">
+      <End Role="child" EntitySet="child" />
+      <End Role="volunteerHistory" EntitySet="volunteerHistory" />
+    </AssociationSet>
+    <AssociationSet Name="FK_volunteerHistory_volunteer" Association="Self.FK_volunteerHistory_volunteer">
+      <End Role="volunteer" EntitySet="volunteer" />
+      <End Role="volunteerHistory" EntitySet="volunteerHistory" />
+    </AssociationSet>
+    <AssociationSet Name="FK_volunteerHistory_volunteerOfChild" Association="Self.FK_volunteerHistory_volunteerOfChild">
+      <End Role="volunteerOfChild" EntitySet="volunteerOfChild" />
+      <End Role="volunteerHistory" EntitySet="volunteerHistory" />
+    </AssociationSet>
+    <AssociationSet Name="FK_volunteerOfChild_child" Association="Self.FK_volunteerOfChild_child">
+      <End Role="child" EntitySet="child" />
+      <End Role="volunteerOfChild" EntitySet="volunteerOfChild" />
+    </AssociationSet>
+    <AssociationSet Name="FK_volunteerOfChild_volunteer" Association="Self.FK_volunteerOfChild_volunteer">
+      <End Role="volunteer" EntitySet="volunteer" />
+      <End Role="volunteerOfChild" EntitySet="volunteerOfChild" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
