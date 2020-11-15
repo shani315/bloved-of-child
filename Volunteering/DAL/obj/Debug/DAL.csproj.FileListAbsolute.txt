@@ -1,0 +1,113 @@
+D:\פרויקט סוף שנה\Volunteering\DAL\bin\Debug\DAL.dll.config
+D:\פרויקט סוף שנה\Volunteering\DAL\bin\Debug\DAL.dll
+D:\פרויקט סוף שנה\Volunteering\DAL\bin\Debug\DAL.pdb
+D:\פרויקט סוף שנה\Volunteering\DAL\bin\Debug\EntityFramework.dll
+D:\פרויקט סוף שנה\Volunteering\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\פרויקט סוף שנה\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\פרויקט סוף שנה\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\פרויקט סוף שנה\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\פרויקט סוף שנה\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\פרויקט סוף שנה\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\פרויקט סוף שנה\Volunteering\DAL\bin\Debug\Microsoft.MSXML.dll
+D:\פרויקט סוף שנה\Volunteering\DAL\bin\Debug\EntityFramework.xml
+D:\פרויקט סוף שנה\Volunteering\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\פרויקט סוף שנה\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.OLE.Interop.xml
+D:\פרויקט סוף שנה\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.xml
+D:\פרויקט סוף שנה\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.xml
+D:\פרויקט סוף שנה\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.xml
+D:\פרויקט סוף שנה\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.xml
+D:\פרויקט סוף שנה\Volunteering\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\פרויקט סוף שנה\Volunteering\DAL\obj\Debug\DAL.dll
+D:\פרויקט סוף שנה\Volunteering\DAL\obj\Debug\DAL.pdb
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DAL\bin\Debug\DAL.dll.config
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DAL\bin\Debug\DAL.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DAL\bin\Debug\DAL.pdb
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DAL\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.OLE.Interop.xml
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.xml
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.xml
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.xml
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.xml
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DAL\obj\Debug\DAL.dll
+C:\Users\Home\Documents\לימודים\שנה ב\פרויקט\Volunteering\DAL\obj\Debug\DAL.pdb
+D:\Volunteering\DAL\bin\Debug\DAL.dll.config
+D:\Volunteering\DAL\bin\Debug\DAL.dll
+D:\Volunteering\DAL\bin\Debug\DAL.pdb
+D:\Volunteering\DAL\bin\Debug\EntityFramework.dll
+D:\Volunteering\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Volunteering\DAL\bin\Debug\Microsoft.MSXML.dll
+D:\Volunteering\DAL\bin\Debug\EntityFramework.xml
+D:\Volunteering\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.OLE.Interop.xml
+D:\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.xml
+D:\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.xml
+D:\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.xml
+D:\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.xml
+D:\Volunteering\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\Volunteering\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Volunteering\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Volunteering\DAL\obj\Debug\DAL.dll
+D:\Volunteering\DAL\obj\Debug\DAL.pdb
+C:\Users\wqww\Desktop\bloved-of-child\server\Volunteering\DAL\bin\Debug\DAL.dll.config
+C:\Users\wqww\Desktop\bloved-of-child\server\Volunteering\DAL\bin\Debug\DAL.dll
+C:\Users\wqww\Desktop\bloved-of-child\server\Volunteering\DAL\bin\Debug\DAL.pdb
+C:\Users\wqww\Desktop\bloved-of-child\server\Volunteering\DAL\bin\Debug\EntityFramework.dll
+C:\Users\wqww\Desktop\bloved-of-child\server\Volunteering\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\wqww\Desktop\bloved-of-child\server\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\wqww\Desktop\bloved-of-child\server\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\wqww\Desktop\bloved-of-child\server\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\wqww\Desktop\bloved-of-child\server\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\wqww\Desktop\bloved-of-child\server\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\wqww\Desktop\bloved-of-child\server\Volunteering\DAL\bin\Debug\Microsoft.MSXML.dll
+C:\Users\wqww\Desktop\bloved-of-child\server\Volunteering\DAL\bin\Debug\EntityFramework.xml
+C:\Users\wqww\Desktop\bloved-of-child\server\Volunteering\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\wqww\Desktop\bloved-of-child\server\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.OLE.Interop.xml
+C:\Users\wqww\Desktop\bloved-of-child\server\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.xml
+C:\Users\wqww\Desktop\bloved-of-child\server\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.xml
+C:\Users\wqww\Desktop\bloved-of-child\server\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.xml
+C:\Users\wqww\Desktop\bloved-of-child\server\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.xml
+C:\Users\wqww\Desktop\bloved-of-child\server\Volunteering\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\wqww\Desktop\bloved-of-child\server\Volunteering\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\wqww\Desktop\bloved-of-child\server\Volunteering\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\wqww\Desktop\bloved-of-child\server\Volunteering\DAL\obj\Debug\DAL.dll
+C:\Users\wqww\Desktop\bloved-of-child\server\Volunteering\DAL\obj\Debug\DAL.pdb
+C:\Users\Home\Desktop\Angular\New folder\volunteer\server\server\Volunteering\DAL\bin\Debug\DAL.dll.config
+C:\Users\Home\Desktop\Angular\New folder\volunteer\server\server\Volunteering\DAL\bin\Debug\DAL.dll
+C:\Users\Home\Desktop\Angular\New folder\volunteer\server\server\Volunteering\DAL\bin\Debug\DAL.pdb
+C:\Users\Home\Desktop\Angular\New folder\volunteer\server\server\Volunteering\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Home\Desktop\Angular\New folder\volunteer\server\server\Volunteering\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Home\Desktop\Angular\New folder\volunteer\server\server\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Home\Desktop\Angular\New folder\volunteer\server\server\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Home\Desktop\Angular\New folder\volunteer\server\server\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Home\Desktop\Angular\New folder\volunteer\server\server\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Home\Desktop\Angular\New folder\volunteer\server\server\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Home\Desktop\Angular\New folder\volunteer\server\server\Volunteering\DAL\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Home\Desktop\Angular\New folder\volunteer\server\server\Volunteering\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Home\Desktop\Angular\New folder\volunteer\server\server\Volunteering\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Home\Desktop\Angular\New folder\volunteer\server\server\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.OLE.Interop.xml
+C:\Users\Home\Desktop\Angular\New folder\volunteer\server\server\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.xml
+C:\Users\Home\Desktop\Angular\New folder\volunteer\server\server\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.xml
+C:\Users\Home\Desktop\Angular\New folder\volunteer\server\server\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.xml
+C:\Users\Home\Desktop\Angular\New folder\volunteer\server\server\Volunteering\DAL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.xml
+C:\Users\Home\Desktop\Angular\New folder\volunteer\server\server\Volunteering\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Home\Desktop\Angular\New folder\volunteer\server\server\Volunteering\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Home\Desktop\Angular\New folder\volunteer\server\server\Volunteering\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Home\Desktop\Angular\New folder\volunteer\server\server\Volunteering\DAL\obj\Debug\DAL.dll
+C:\Users\Home\Desktop\Angular\New folder\volunteer\server\server\Volunteering\DAL\obj\Debug\DAL.pdb

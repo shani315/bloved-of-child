@@ -11,6 +11,7 @@
           <ScalarProperty Name="sax" ColumnName="sax" />
           <ScalarProperty Name="dateEntryToSite" ColumnName="dateEntryToSite" />
           <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="tz" ColumnName="tz" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -166,6 +167,7 @@
           <ScalarProperty Name="day" ColumnName="day" />
           <ScalarProperty Name="details" ColumnName="details" />
           <ScalarProperty Name="remarks" ColumnName="remarks" />
+          <ScalarProperty Name="status" ColumnName="status" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

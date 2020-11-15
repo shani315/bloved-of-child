@@ -18,7 +18,6 @@ namespace DAL
         public Nullable<int> eventId { get; set; }
         public Nullable<int> childId { get; set; }
     
-        public virtual child child { get; set; }
         public virtual eventOfChild eventOfChild { get; set; }
     }
 }

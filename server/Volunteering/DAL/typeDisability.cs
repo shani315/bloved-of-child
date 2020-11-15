@@ -27,7 +27,6 @@ namespace DAL
         public string downSyndrome { get; set; }
         public int childId { get; set; }
     
-        public virtual child child { get; set; }
         public virtual volunteer volunteer { get; set; }
     }
 }

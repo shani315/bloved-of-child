@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a00c6398ee4947f68a85b9288a6ade62" Name="Diagram1">
+        <EntityTypeShape EntityType="volunteeringModel.child" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="volunteeringModel.childEvent" Width="1.5" PointX="6" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="volunteeringModel.eventOfChild" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="volunteeringModel.eventOfVolunteer" Width="1.5" PointX="3" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="volunteeringModel.eventsVolunteer" Width="1.5" PointX="0.75" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="volunteeringModel.family" Width="1.5" PointX="8.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="volunteeringModel.secretary" Width="1.5" PointX="1.5" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="volunteeringModel.typeDisability" Width="1.5" PointX="6" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="volunteeringModel.volunteer" Width="1.5" PointX="0.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="volunteeringModel.volunteerHistory" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="volunteeringModel.volunteerOfChild" Width="1.5" PointX="3" PointY="13.75" IsExpanded="true" />
+        <AssociationConnector Association="volunteeringModel.FK_childEvent_child" ManuallyRouted="false" />
+        <AssociationConnector Association="volunteeringModel.FK_typeDisability_child" ManuallyRouted="false" />
+        <AssociationConnector Association="volunteeringModel.FK_volunteerHistory_child" ManuallyRouted="false" />
+        <AssociationConnector Association="volunteeringModel.FK_volunteerOfChild_child" ManuallyRouted="false" />
+        <AssociationConnector Association="volunteeringModel.FK_childEvent_eventOfChild" ManuallyRouted="false" />
+        <AssociationConnector Association="volunteeringModel.FK_eventOfChild_secretary" ManuallyRouted="false" />
+        <AssociationConnector Association="volunteeringModel.FK_typeDisability_eventOfChild" ManuallyRouted="false" />
+        <AssociationConnector Association="volunteeringModel.FK_eventOfVolunteer_eventsVolunteer" ManuallyRouted="false" />
+        <AssociationConnector Association="volunteeringModel.FK_eventOfVolunteer_volunteer" ManuallyRouted="false" />
+        <AssociationConnector Association="volunteeringModel.FK_eventOfVolunteer_eventOfVolunteer" ManuallyRouted="false" />
+        <AssociationConnector Association="volunteeringModel.FK_typeDisability_volunteer" ManuallyRouted="false" />
+        <AssociationConnector Association="volunteeringModel.FK_volunteerHistory_volunteer" ManuallyRouted="false" />
+        <AssociationConnector Association="volunteeringModel.FK_volunteerOfChild_volunteer" ManuallyRouted="false" />
+        <AssociationConnector Association="volunteeringModel.FK_volunteerHistory_volunteerOfChild" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

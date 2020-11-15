@@ -14,15 +14,6 @@ namespace DAL
     
     public partial class child
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public child()
-        {
-            this.childEvent = new HashSet<childEvent>();
-            this.typeDisability = new HashSet<typeDisability>();
-            this.volunteerHistory = new HashSet<volunteerHistory>();
-            this.volunteerOfChild = new HashSet<volunteerOfChild>();
-        }
-    
         public int childID { get; set; }
         public Nullable<int> familyId { get; set; }
         public string firstName { get; set; }
@@ -30,15 +21,8 @@ namespace DAL
         public string sax { get; set; }
         public Nullable<System.DateTime> dateEntryToSite { get; set; }
         public string status { get; set; }
+        public string tz { get; set; }
     
         public virtual family family { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<childEvent> childEvent { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<typeDisability> typeDisability { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<volunteerHistory> volunteerHistory { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<volunteerOfChild> volunteerOfChild { get; set; }
     }
 }

@@ -20,6 +20,7 @@ using DTO;
             newChild.familyId = c.familyId;
             newChild.firstName = c.firstName;
             newChild.sax = c.sax;
+            newChild.tz = c.tz;
             newChild.childrenOnSite = f.childrenOnSite;
             newChild.city = f.city;
             newChild.mail = f.mail;
@@ -27,6 +28,7 @@ using DTO;
             newChild.street = f.street;
             newChild.houseNumber = f.houseNumber;
             newChild.formContact = f.formContact;
+            newChild.lastName = f.lastName;
             return newChild;
         }
         

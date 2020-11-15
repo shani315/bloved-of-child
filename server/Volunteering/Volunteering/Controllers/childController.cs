@@ -14,10 +14,11 @@ namespace Volunteering.Controllers
 
         static volunteeringEntities1 VolunteeringET = new volunteeringEntities1();
         [HttpGet]
-        [Route("Child/GetChild/{id}")]
+        [Route("api/Child/GetChild/{id}")]
         //מחזירה ילד ע"פ ת.ז
         public HttpResponseMessage GetChild(int id)
         {
+            //Request.Headers.Contains("id");
             HttpResponseMessage response;
             child c = VolunteeringET.child.Find(id);
             if (c == null)
@@ -32,52 +33,48 @@ namespace Volunteering.Controllers
             }
             return response;
         }
-
-       [HttpPost]
-        //מוסיפה ילד חדש למערכת
-        [Route("Child/NewChild")]
-        public void NewChild([FromBody]child newChild)
+        //מוסיפה ילד חדש 
+        //לשאול מה לגבי המשפחה שצריך להוסיף ומה לגבי מספר ילדים במשפחה
+        [HttpPut]
+        [Route("api/Child/NewChild")]
+        public bool NewChild([FromBody]child newChild)
         {
-            volunteeringEntities1 volunteeringET=new volunteeringEntities1();
-         if(newChild!=null&&ModelState.IsValid==true)
-            {
-            volunteeringET.child.Add(newChild);
-                volunteeringET.SaveChanges();
-            }
-            else
-            {
-                throw new HttpResponseException(HttpStatusCode.BadRequest);
-            }
+            return ChildBL.NewChild(newChild);
         }
-        [Route("Child/GetAllChildrenWhoNeedApproval")]
+        [HttpGet]
+        [Route("api/Child/GetAllChildrenWhoNeedApproval")]
         //מחזירה את כל הילדים שהסטטוס שלהם לא פעיל
         public List<childDTO> GetAllChildrenWhoNeedApproval()
         {
             List<childDTO> listOfChildren = new List<childDTO>();
-            listOfChildren=ChildBL.GetAllChildrenWhoNeedAproval();
+            listOfChildren = ChildBL.GetAllChildrenWhoNeedAproval();
             return listOfChildren;
         }
         //משנה את הסטטוס של הילד לפעיל
         //לשאול מה לגבי מחכה לתשובה
-        [HttpGet]
-        [Route("Child/UpdateTheStatus/{id}")]
+        [HttpPost]
+        [Route("api/Child/UpdateTheStatus/{id}")]
         public bool UpdateTheStatus(int id)
         {
             return ChildBL.UpdateTheStatus(id);
         }
+
         //שליחת מייל
-        public bool sendEmail(string email,string subject,string body)
+        public bool sendEmail(string email, string subject, string body)
         {
-            return GlobalBL.SendEmail(email,subject,body);
+            return GlobalBL.SendEmail(email, subject, body);
         }
         //מחזירה את רשימת הילדים
-        public List<childDTO> GetAllChildrens()
+        [HttpGet]
+        [Route("api/Child/GetAllChildrens")]
+        public List<childDTO> AllChildrens()
         {
             return ChildBL.GetAllChildrens();
         }
         //מחזירה כמות ילדים שהצטרפו לאתר לפי חודש 
         //מחזירה פעיל ולא פעיל באחוזים
-        [Route("Child/GetActiveAndInactiveInPercent")]
+        [HttpGet]
+        [Route("api/Child/GetActiveAndInactiveInPercent")]
         public float GetActiveAndInactiveInPercent()
         {
             return ChildBL.GetActiveAndInactiveInPercent();

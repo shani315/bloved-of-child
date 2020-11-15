@@ -6,6 +6,14 @@ using System.Threading.Tasks;
 
 namespace DTO
 {
+    public enum eTypeUser { volunteer,child}
+    public enum eCommunication { exhausting ,ipad, letteres, FacialExpressions, SignLanguage, NotCalling, Other, immaterial }
+    public enum eViolence { himself , ToTheEnvironment, ToHimselfAndTheEnvironment, without }
+    public enum eAHD { yes,no}
+    public enum eLag { easy , medium , difficult }
+    public enum eIncapacity { ship ,cp, MuscularDystrophy, Going, DisabilityNotFromTheSyndrome ,}
+    public enum eDownSyndrome { TheHowlOfTheCat, Rath, Glider, HighPerformance}
+    public enum eASD { PDD , PDD_NOS , AspergerSyndrome}
    public class typeDisabilityDTO
     {
         public int typeDisabilityID { get; set; }

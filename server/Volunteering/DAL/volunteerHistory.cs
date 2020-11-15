@@ -19,11 +19,10 @@ namespace DAL
         public Nullable<int> childId { get; set; }
         public Nullable<int> volunteerOfChildId { get; set; }
         public Nullable<int> volunteerQualityId { get; set; }
-        public System.TimeSpan hour { get; set; }
+        public double hour { get; set; }
         public System.DateTime dateVolunteer { get; set; }
         public string remarks { get; set; }
     
-        public virtual child child { get; set; }
         public virtual volunteer volunteer { get; set; }
         public virtual volunteerOfChild volunteerOfChild { get; set; }
     }

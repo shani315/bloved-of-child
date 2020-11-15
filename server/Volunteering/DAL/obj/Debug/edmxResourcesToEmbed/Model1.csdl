@@ -11,11 +11,8 @@
     <Property Name="sax" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="dateEntryToSite" Type="DateTime" Precision="3" />
     <Property Name="status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="tz" Type="String" MaxLength="9" FixedLength="false" Unicode="false" Nullable="false" />
     <NavigationProperty Name="family" Relationship="Self.FK_child_family" FromRole="child" ToRole="family" />
-    <NavigationProperty Name="childEvent" Relationship="Self.FK_childEvent_child" FromRole="child" ToRole="childEvent" />
-    <NavigationProperty Name="typeDisability" Relationship="Self.FK_typeDisability_child" FromRole="child" ToRole="typeDisability" />
-    <NavigationProperty Name="volunteerHistory" Relationship="Self.FK_volunteerHistory_child" FromRole="child" ToRole="volunteerHistory" />
-    <NavigationProperty Name="volunteerOfChild" Relationship="Self.FK_volunteerOfChild_child" FromRole="child" ToRole="volunteerOfChild" />
   </EntityType>
   <EntityType Name="childEvent">
     <Key>
@@ -24,7 +21,6 @@
     <Property Name="childEventID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="eventId" Type="Int32" />
     <Property Name="childId" Type="Int32" />
-    <NavigationProperty Name="child" Relationship="Self.FK_childEvent_child" FromRole="childEvent" ToRole="child" />
     <NavigationProperty Name="eventOfChild" Relationship="Self.FK_childEvent_eventOfChild" FromRole="childEvent" ToRole="eventOfChild" />
   </EntityType>
   <EntityType Name="eventOfChild">
@@ -129,7 +125,6 @@
     <Property Name="AHD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="downSyndrome" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="childId" Type="Int32" Nullable="false" />
-    <NavigationProperty Name="child" Relationship="Self.FK_typeDisability_child" FromRole="typeDisability" ToRole="child" />
     <NavigationProperty Name="volunteer" Relationship="Self.FK_typeDisability_volunteer" FromRole="typeDisability" ToRole="volunteer" />
   </EntityType>
   <EntityType Name="volunteer">
@@ -162,10 +157,9 @@
     <Property Name="childId" Type="Int32" />
     <Property Name="volunteerOfChildId" Type="Int32" />
     <Property Name="volunteerQualityId" Type="Int32" />
-    <Property Name="hour" Type="Time" Nullable="false" Precision="4" />
+    <Property Name="hour" Type="Double" Nullable="false" />
     <Property Name="dateVolunteer" Type="DateTime" Nullable="false" Precision="0" />
     <Property Name="remarks" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-    <NavigationProperty Name="child" Relationship="Self.FK_volunteerHistory_child" FromRole="volunteerHistory" ToRole="child" />
     <NavigationProperty Name="volunteer" Relationship="Self.FK_volunteerHistory_volunteer" FromRole="volunteerHistory" ToRole="volunteer" />
     <NavigationProperty Name="volunteerOfChild" Relationship="Self.FK_volunteerHistory_volunteerOfChild" FromRole="volunteerHistory" ToRole="volunteerOfChild" />
   </EntityType>
@@ -180,7 +174,7 @@
     <Property Name="day" Type="Int32" />
     <Property Name="details" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="remarks" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <NavigationProperty Name="child" Relationship="Self.FK_volunteerOfChild_child" FromRole="volunteerOfChild" ToRole="child" />
+    <Property Name="status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <NavigationProperty Name="volunteer" Relationship="Self.FK_volunteerOfChild_volunteer" FromRole="volunteerOfChild" ToRole="volunteer" />
     <NavigationProperty Name="volunteerHistory" Relationship="Self.FK_volunteerHistory_volunteerOfChild" FromRole="volunteerOfChild" ToRole="volunteerHistory" />
   </EntityType>
@@ -193,54 +187,6 @@
       </Principal>
       <Dependent Role="child">
         <PropertyRef Name="familyId" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="FK_childEvent_child">
-    <End Role="child" Type="Self.child" Multiplicity="0..1" />
-    <End Role="childEvent" Type="Self.childEvent" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="child">
-        <PropertyRef Name="childID" />
-      </Principal>
-      <Dependent Role="childEvent">
-        <PropertyRef Name="childId" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="FK_typeDisability_child">
-    <End Role="child" Type="Self.child" Multiplicity="1" />
-    <End Role="typeDisability" Type="Self.typeDisability" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="child">
-        <PropertyRef Name="childID" />
-      </Principal>
-      <Dependent Role="typeDisability">
-        <PropertyRef Name="childId" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="FK_volunteerHistory_child">
-    <End Role="child" Type="Self.child" Multiplicity="0..1" />
-    <End Role="volunteerHistory" Type="Self.volunteerHistory" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="child">
-        <PropertyRef Name="childID" />
-      </Principal>
-      <Dependent Role="volunteerHistory">
-        <PropertyRef Name="childId" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="FK_volunteerOfChild_child">
-    <End Role="child" Type="Self.child" Multiplicity="0..1" />
-    <End Role="volunteerOfChild" Type="Self.volunteerOfChild" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="child">
-        <PropertyRef Name="childID" />
-      </Principal>
-      <Dependent Role="volunteerOfChild">
-        <PropertyRef Name="childId" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
@@ -368,22 +314,6 @@
     <AssociationSet Name="FK_child_family" Association="Self.FK_child_family">
       <End Role="family" EntitySet="family" />
       <End Role="child" EntitySet="child" />
-    </AssociationSet>
-    <AssociationSet Name="FK_childEvent_child" Association="Self.FK_childEvent_child">
-      <End Role="child" EntitySet="child" />
-      <End Role="childEvent" EntitySet="childEvent" />
-    </AssociationSet>
-    <AssociationSet Name="FK_typeDisability_child" Association="Self.FK_typeDisability_child">
-      <End Role="child" EntitySet="child" />
-      <End Role="typeDisability" EntitySet="typeDisability" />
-    </AssociationSet>
-    <AssociationSet Name="FK_volunteerHistory_child" Association="Self.FK_volunteerHistory_child">
-      <End Role="child" EntitySet="child" />
-      <End Role="volunteerHistory" EntitySet="volunteerHistory" />
-    </AssociationSet>
-    <AssociationSet Name="FK_volunteerOfChild_child" Association="Self.FK_volunteerOfChild_child">
-      <End Role="child" EntitySet="child" />
-      <End Role="volunteerOfChild" EntitySet="volunteerOfChild" />
     </AssociationSet>
     <AssociationSet Name="FK_childEvent_eventOfChild" Association="Self.FK_childEvent_eventOfChild">
       <End Role="eventOfChild" EntitySet="eventOfChild" />
